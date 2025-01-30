@@ -6,7 +6,8 @@
   position: fixed;
   width: 100%;
   flex-direction: column; 
-  justify-content: center; 
+  /* justify-content: center;  */
+  padding-top: 100px;
   align-items: center; 
   background-color: rgb(46, 42, 38);
 }
@@ -37,10 +38,15 @@ button:hover {
 
 ul {
   list-style-type: none;
-  padding: 0;
+  padding: 10px;
 }
 
 li {
+  display: flex;
+  width: 50vh;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   padding: 10px;
   border: 1px solid #ddd;
   margin-bottom: 5px;
