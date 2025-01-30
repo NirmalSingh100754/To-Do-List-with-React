@@ -1,6 +1,6 @@
 .App {
   font-family: Arial, sans-serif;
-  padding: 20px;
+  /* padding: 20px; */
   min-height: 100vh; 
   display: flex; 
   position: fixed;
